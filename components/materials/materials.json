@@ -5,7 +5,19 @@
     "icon": "volleyball-ball",
     "description": ""
   },
-  "options": {},
+  "options": {
+    "privateAttributes": [
+      "id",
+      "_id",
+      "created_at",
+      "updated_at",
+      "published_at",
+      "createdAt",
+      "updatedAt",
+      "publishedAt",
+      "__v"
+    ]
+  },
   "attributes": {
     "amount": {
       "type": "biginteger"
