@@ -21,12 +21,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "name": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "minPlayers": {
+    "minimumPlayers": {
       "type": "biginteger",
       "required": true
     },
@@ -43,7 +43,7 @@
     "category": {
       "model": "category"
     },
-    "groups": {
+    "targetGroup": {
       "collection": "group"
     },
     "description": {
@@ -60,7 +60,7 @@
       "repeatable": true,
       "component": "materials.materials"
     },
-    "variations": {
+    "variation": {
       "type": "component",
       "repeatable": true,
       "component": "variations.variations"
