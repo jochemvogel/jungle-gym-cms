@@ -64,6 +64,9 @@
       "type": "component",
       "repeatable": true,
       "component": "variations.variations"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
