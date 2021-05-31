@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_action_actions",
+  "info": {
+    "name": "action",
+    "icon": "hiking"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_materials_materials",
+  "info": {
+    "name": "materials",
+    "icon": "volleyball-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "amount": {
+      "type": "biginteger"
+    },
+    "description": {
+      "type": "text"
+    },
+    "material": {
+      "model": "materials"
+    }
+  }
+}

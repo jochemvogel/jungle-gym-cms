@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_variations_variations",
+  "info": {
+    "name": "variations",
+    "icon": "balance-scale-right"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": true,
+      "component": "action.action"
+    }
+  }
+}

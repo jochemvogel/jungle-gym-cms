@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_rules_rules",
+  "info": {
+    "name": "rules",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    }
+  }
+}
