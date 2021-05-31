@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_action_actions",
+  "collectionName": "components_actions_actions",
   "info": {
-    "name": "action",
-    "icon": "hiking",
-    "description": ""
+    "name": "actions",
+    "icon": "asterisk"
   },
   "options": {
     "privateAttributes": [
@@ -20,9 +19,7 @@
   },
   "attributes": {
     "description": {
-      "type": "string",
-      "required": true,
-      "unique": true
+      "type": "string"
     }
   }
 }

@@ -22,10 +22,10 @@
     "description": {
       "type": "string"
     },
-    "action": {
+    "actions": {
       "type": "component",
       "repeatable": true,
-      "component": "action.action"
+      "component": "actions.actions"
     }
   }
 }
