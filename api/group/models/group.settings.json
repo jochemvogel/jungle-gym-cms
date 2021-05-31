@@ -24,7 +24,9 @@
   "pluginOptions": {},
   "attributes": {
     "group": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "unique": true,
+      "required": true
     }
   }
 }
