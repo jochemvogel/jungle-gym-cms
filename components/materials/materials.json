@@ -23,7 +23,7 @@
       "type": "biginteger"
     },
     "description": {
-      "type": "text"
+      "type": "string"
     },
     "material": {
       "model": "materials"

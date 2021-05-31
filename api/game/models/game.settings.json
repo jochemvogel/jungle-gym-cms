@@ -27,12 +27,15 @@
       "unique": true
     },
     "minPlayers": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "required": true
     },
     "image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
@@ -43,16 +46,24 @@
     "groups": {
       "collection": "group"
     },
-    "additions": {
-      "type": "dynamiczone",
-      "components": [
-        "materials.materials",
-        "rules.rules",
-        "variations.variations"
-      ]
-    },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
+    },
+    "rules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rules.rules"
+    },
+    "materials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "materials.materials"
+    },
+    "variations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "variations.variations"
     }
   }
 }
