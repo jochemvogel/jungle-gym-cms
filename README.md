@@ -39,3 +39,7 @@ The text of the CMS is located in the `translations` folder. You can remove all 
 The Dutch translation is not that good, so you're free in changing that translation.
 
 Read the whole documentation about editing in the [Strapi docs](https://strapi.io/documentation/developer-docs/latest/guides/custom-admin.html).
+
+## Others
+
+Add some documentation about the colors. Why the blue colors are green. This will be added later, but don't forget.
