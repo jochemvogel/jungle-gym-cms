@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/uitgelicht-spel",
+      "handler": "uitgelicht-spel.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/uitgelicht-spel",
+      "handler": "uitgelicht-spel.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/uitgelicht-spel",
+      "handler": "uitgelicht-spel.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

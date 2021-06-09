@@ -67,6 +67,10 @@
     },
     "slug": {
       "type": "string"
+    },
+    "highlighted": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

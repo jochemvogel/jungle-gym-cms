@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "uitgelicht_spels",
+  "info": {
+    "name": "Uitgelicht spel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true,
+    "privateAttributes": [
+      "_id",
+      "created_at",
+      "updated_at",
+      "published_at",
+      "createdAt",
+      "publishedAt",
+      "__v"
+    ]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "game": {
+      "model": "game"
+    }
+  }
+}
