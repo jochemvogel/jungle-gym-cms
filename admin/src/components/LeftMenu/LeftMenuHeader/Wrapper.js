@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
 
-import Logo from "../../../assets/images/logo-strapi.png";
+import Logo from "../../../assets/images/logo_jungle-gym.svg";
 
 const Wrapper = styled.div`
   background-color: ${(props) => props.theme.main.colors.strapi["blue"]};
@@ -25,7 +25,7 @@ const Wrapper = styled.div`
     background-image: url(${Logo});
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: auto 2.5rem;
+    background-size: auto 4rem;
   }
 `;
 
