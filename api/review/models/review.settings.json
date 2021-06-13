@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "name": "Review",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true,
+    "privateAttributes": [
+      "id",
+      "_id",
+      "created_at",
+      "updated_at",
+      "published_at",
+      "createdAt",
+      "updatedAt",
+      "publishedAt",
+      "__v"
+    ]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descriptionEmoji": {
+      "type": "string"
+    },
+    "descriptionExplanation": {
+      "type": "string"
+    },
+    "executionEmoji": {
+      "type": "string"
+    },
+    "executionExplanation": {
+      "type": "string"
+    },
+    "kidsEmoji": {
+      "type": "string"
+    },
+    "kidsExplanation": {
+      "type": "string"
+    },
+    "game": {
+      "type": "string"
+    },
+    "overallEmoji": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}
