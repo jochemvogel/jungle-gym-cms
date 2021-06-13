@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "name": "Question"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true,
+    "privateAttributes": [
+      "id",
+      "_id",
+      "created_at",
+      "updated_at",
+      "published_at",
+      "createdAt",
+      "updatedAt",
+      "publishedAt",
+      "__v"
+    ]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    }
+  }
+}
