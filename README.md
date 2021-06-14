@@ -2,6 +2,10 @@
 
 CMS for the [JungleGym](https://github.com/iSirThijs/jungle-gym) application.
 
+In this Content Management System all the games can be managed. This CMS is built with [Strapi](https://strapi.io/resource-center).
+
+**[Live Link](https://jungle-gym-cms.herokuapp.com/admin)**
+
 ## :gear: Installation
 
 ### Developing
@@ -40,6 +44,22 @@ The Dutch translation is not that good, so you're free in changing that translat
 
 Read the whole documentation about editing in the [Strapi docs](https://strapi.io/documentation/developer-docs/latest/guides/custom-admin.html).
 
-## Others
+### Building
 
-Add some documentation about the colors. Why the blue colors are green. This will be added later, but don't forget.
+On default Strapi will use the `strapi-admin` package that is pre-installed for rendering the admin panel. If you choose to customise it, you need to build those new files first.
+
+#### Build files
+
+```
+yarn build
+```
+
+#### Watch files
+
+```
+yarn watch
+```
+
+## :mag_right: Reviews
+
+Users can submit a review for each game. Those reviews are also stored in Strapi. Eventually you don't want that, because Strapi is a CMS and not a place to store data that can't be edited. Because of time I choose to POST those reviews to a Strapi Content Type.
