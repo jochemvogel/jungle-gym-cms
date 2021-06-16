@@ -29,12 +29,6 @@
     "descriptionExplanation": {
       "type": "string"
     },
-    "executionEmoji": {
-      "type": "string"
-    },
-    "executionExplanation": {
-      "type": "string"
-    },
     "kidsEmoji": {
       "type": "string"
     },
@@ -48,6 +42,12 @@
       "type": "string"
     },
     "type": {
+      "type": "string"
+    },
+    "rulesEmoji": {
+      "type": "string"
+    },
+    "rulesExplanation": {
       "type": "string"
     }
   }
